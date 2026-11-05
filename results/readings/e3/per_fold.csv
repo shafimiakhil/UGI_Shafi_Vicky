@@ -1,0 +1,9 @@
+tile_set,fold,ap_nocirc_baseline,ap_nocirc_arm,difference
+centre sq8km,1,0.69072,0.70205,0.01134
+centre sq8km,2,0.76146,0.79222,0.03076
+centre sq8km,3,0.68183,0.6493,-0.03253
+centre sq8km,4,0.71121,0.69768,-0.01353
+all tiles,1,0.34881,0.35055,0.00174
+all tiles,2,0.54742,0.49605,-0.05137
+all tiles,3,0.53633,0.47216,-0.06417
+all tiles,4,0.50791,0.56318,0.05527

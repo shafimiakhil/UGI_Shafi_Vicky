@@ -1,0 +1,131 @@
+{
+ "metric": "AP with CIRCUNVALACION excluded",
+ "a2": "ugi_r3_a2_none",
+ "a1": "ugi_r1_none",
+ "resamples": 2000,
+ "pooled_ap_nocirc_inside_ejido": {
+  "a2_seed0": 0.4341056,
+  "a1_seed0": 0.4494482,
+  "a1_seed1": 0.4543984,
+  "a1_seed2": 0.4488463
+ },
+ "a2_seed0_minus_a1_seed0_by_resampling_seed": {
+  "0": [
+   -0.0297925,
+   -0.0004171
+  ],
+  "1": [
+   -0.0311322,
+   -0.0008659
+  ],
+  "2": [
+   -0.0301897,
+   -0.0003638
+  ],
+  "3": [
+   -0.0298409,
+   -0.0004058
+  ],
+  "4": [
+   -0.0304085,
+   -0.0004594
+  ],
+  "5": [
+   -0.0296884,
+   -0.0005822
+  ]
+ },
+ "a2_seed0_minus_a1_by_a1_seed": {
+  "0": {
+   "point": -0.0153426,
+   "ci95_block": [
+    -0.0297925,
+    -0.0004171
+   ]
+  },
+  "1": {
+   "point": -0.0202928,
+   "ci95_block": [
+    -0.0366647,
+    -0.0023008
+   ]
+  },
+  "2": {
+   "point": -0.0147406,
+   "ci95_block": [
+    -0.0315252,
+    0.0020988
+   ]
+  }
+ },
+ "per_fold_seed0": {
+  "1": {
+   "a2": 0.34478,
+   "a1": 0.34881,
+   "difference": -0.00403
+  },
+  "2": {
+   "a2": 0.52793,
+   "a1": 0.54742,
+   "difference": -0.01949
+  },
+  "3": {
+   "a2": 0.52124,
+   "a1": 0.53633,
+   "difference": -0.01509
+  },
+  "4": {
+   "a2": 0.51132,
+   "a1": 0.50791,
+   "difference": 0.00341
+  }
+ },
+ "many_seeds": {
+  "inside_ejido": {
+   "seeds": 400,
+   "seed_range": [
+    6,
+    405
+   ],
+   "resamples_each": 2000,
+   "upper_limit_mean": -0.0005,
+   "upper_limit_sd": 0.00044,
+   "upper_limit_min": -0.001734,
+   "upper_limit_max": 0.000589,
+   "share_including_zero": 0.135
+  },
+  "full_grid": {
+   "seeds": 400,
+   "seed_range": [
+    6,
+    405
+   ],
+   "resamples_each": 2000,
+   "upper_limit_mean": 8e-06,
+   "upper_limit_sd": 0.000449,
+   "upper_limit_min": -0.001168,
+   "upper_limit_max": 0.001155,
+   "share_including_zero": 0.5
+  }
+ },
+ "long_run": {
+  "inside_ejido": {
+   "resamples": 50000,
+   "seed": 987654,
+   "ci95": [
+    -0.0302156,
+    -0.0005735
+   ],
+   "share_of_resamples_at_or_above_zero": 0.0208
+  },
+  "full_grid": {
+   "resamples": 50000,
+   "seed": 987654,
+   "ci95": [
+    -0.0295426,
+    -4.72e-05
+   ],
+   "share_of_resamples_at_or_above_zero": 0.0247
+  }
+ }
+}

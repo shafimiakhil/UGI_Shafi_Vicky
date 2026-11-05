@@ -1,0 +1,4 @@
+region,ap_min,ap_median,ap_max,auroc_min,auroc_median,auroc_max,ap_sd_81,ap_sd_81_corrected,auroc_sd_81_corrected,e1b_minus_e1_abs,share_of_pairs_of_81_differing_at_least_that,e1_ap,e1_ap_share_of_81_below,e1_auroc,e1_auroc_share_of_81_below,e1b_ap,e1b_ap_share_of_81_below,e1b_auroc,e1b_auroc_share_of_81_below,e2_ap,e2_ap_share_of_81_below,e2_auroc,e2_auroc_share_of_81_below
+sq8km,0.6232,0.653,0.6768,0.8932,0.9199,0.9324,0.0147,0.018,0.0116,0.0048,0.8201,0.6494,0.3827,0.9126,0.2963,0.6446,0.321,0.9033,0.1235,0.5792,0.0,0.8959,0.0247
+ejido,0.4285,0.4494,0.475,0.8741,0.8864,0.8992,0.0101,0.0124,0.0069,0.0284,0.0441,0.4658,0.9259,0.8781,0.0741,0.4374,0.0864,0.8725,0.0,0.444,0.2593,0.8834,0.2963
+ejido outside sq8km,0.3925,0.4138,0.4412,0.8682,0.881,0.8951,0.0104,0.0128,0.0071,0.0353,0.0133,0.4366,0.9877,0.8725,0.0741,0.4013,0.0988,0.8678,0.0,0.4248,0.8148,0.8849,0.7531

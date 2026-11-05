@@ -1,0 +1,223 @@
+{
+ "reference_area": "centre_sq8km",
+ "blocks_resampled": 81,
+ "resamples": 2000,
+ "seeds": [
+  0
+ ],
+ "folds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": {
+  "ugi_r1_none": {
+   "arm": "ugi_r1_none",
+   "seeds": 1,
+   "ap_coarse_offset": 0.00154,
+   "ap_vegetated_coarse_offset": 0.00136,
+   "ap_nocirc_coarse_offset": 0.00154,
+   "ap": 0.6530075,
+   "ap_ci95_block": [
+    0.6014375,
+    0.715818
+   ],
+   "ap_vegetated": 0.7068111,
+   "ap_vegetated_ci95_block": [
+    0.6563239,
+    0.7644298
+   ],
+   "iou": 0.3816931,
+   "iou_ci95_block": [
+    0.2992945,
+    0.4798838
+   ],
+   "object_recall_strict": 0.4256259,
+   "object_recall_strict_ci95_block": [
+    0.3654364,
+    0.4861159
+   ],
+   "object_recall_tolerant": 0.4624448,
+   "object_recall_tolerant_ci95_block": [
+    0.4022027,
+    0.5239273
+   ],
+   "ap_nocirc": 0.6530075,
+   "ap_nocirc_ci95_block": [
+    0.6014375,
+    0.715818
+   ],
+   "recall_under_6m_strict": 0.0847458,
+   "recall_under_6m_strict_ci95_block": [
+    0.0153788,
+    0.1860564
+   ],
+   "recall_under_6m_tolerant": 0.1016949,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.021972,
+    0.2121373
+   ],
+   "iou_nocirc": 0.3816931,
+   "iou_nocirc_ci95_block": [
+    0.2992945,
+    0.4798838
+   ],
+   "object_recall_strict_nocirc": 0.4256259,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.3654364,
+    0.4861159
+   ],
+   "object_recall_tolerant_nocirc": 0.4624448,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.4022027,
+    0.5239273
+   ],
+   "auroc": 0.9254523
+  },
+  "ugi_e1_ps": {
+   "arm": "ugi_e1_ps",
+   "seeds": 1,
+   "ap_coarse_offset": 0.00163,
+   "ap_vegetated_coarse_offset": 0.00147,
+   "ap_nocirc_coarse_offset": 0.00163,
+   "ap": 0.6493812,
+   "ap_ci95_block": [
+    0.5955442,
+    0.7134323
+   ],
+   "ap_vegetated": 0.6994006,
+   "ap_vegetated_ci95_block": [
+    0.6484819,
+    0.7586642
+   ],
+   "iou": 0.4004331,
+   "iou_ci95_block": [
+    0.325941,
+    0.4906946
+   ],
+   "object_recall_strict": 0.4035346,
+   "object_recall_strict_ci95_block": [
+    0.3399674,
+    0.4657776
+   ],
+   "object_recall_tolerant": 0.4182622,
+   "object_recall_tolerant_ci95_block": [
+    0.3555541,
+    0.4809214
+   ],
+   "ap_nocirc": 0.6493812,
+   "ap_nocirc_ci95_block": [
+    0.5955442,
+    0.7134323
+   ],
+   "recall_under_6m_strict": 0.0508475,
+   "recall_under_6m_strict_ci95_block": [
+    0.0,
+    0.1142857
+   ],
+   "recall_under_6m_tolerant": 0.0508475,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.0,
+    0.1142857
+   ],
+   "iou_nocirc": 0.4004331,
+   "iou_nocirc_ci95_block": [
+    0.325941,
+    0.4906946
+   ],
+   "object_recall_strict_nocirc": 0.4035346,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.3399674,
+    0.4657776
+   ],
+   "object_recall_tolerant_nocirc": 0.4182622,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.3555541,
+    0.4809214
+   ],
+   "auroc": 0.9125711
+  }
+ },
+ "paired_differences": {
+  "ugi_e1_ps - ugi_r1_none": {
+   "ap": {
+    "point": -0.0036263,
+    "ci95_block": [
+     -0.0321764,
+     0.0194988
+    ]
+   },
+   "ap_vegetated": {
+    "point": -0.0074105,
+    "ci95_block": [
+     -0.0303609,
+     0.0156676
+    ]
+   },
+   "iou": {
+    "point": 0.01874,
+    "ci95_block": [
+     -0.0233244,
+     0.0545377
+    ]
+   },
+   "object_recall_strict": {
+    "point": -0.0220913,
+    "ci95_block": [
+     -0.0492714,
+     0.0047892
+    ]
+   },
+   "object_recall_tolerant": {
+    "point": -0.0441826,
+    "ci95_block": [
+     -0.0734929,
+     -0.0149222
+    ]
+   },
+   "ap_nocirc": {
+    "point": -0.0036263,
+    "ci95_block": [
+     -0.0321764,
+     0.0194988
+    ]
+   },
+   "recall_under_6m_strict": {
+    "point": -0.0338983,
+    "ci95_block": [
+     -0.1086957,
+     0.0270556
+    ]
+   },
+   "recall_under_6m_tolerant": {
+    "point": -0.0508474,
+    "ci95_block": [
+     -0.1333333,
+     0.0185185
+    ]
+   },
+   "iou_nocirc": {
+    "point": 0.01874,
+    "ci95_block": [
+     -0.0233244,
+     0.0545377
+    ]
+   },
+   "object_recall_strict_nocirc": {
+    "point": -0.0220913,
+    "ci95_block": [
+     -0.0492714,
+     0.0047892
+    ]
+   },
+   "object_recall_tolerant_nocirc": {
+    "point": -0.0441826,
+    "ci95_block": [
+     -0.0734929,
+     -0.0149222
+    ]
+   }
+  }
+ }
+}

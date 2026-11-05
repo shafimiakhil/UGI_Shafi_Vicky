@@ -1,0 +1,126 @@
+{
+ "blocks_with_at_least_5000_inventory_px": 413,
+ "note": "within-fold rank correlation; p from 10,000 permutations within fold",
+ "change_e1_to_e1b_against_correction_size": {
+  "ap": {
+   "r": 0.073,
+   "p_permutation": 0.1471,
+   "blocks": 388
+  },
+  "auroc": {
+   "r": -0.028,
+   "p_permutation": 0.583,
+   "blocks": 388
+  }
+ },
+ "change_e1_to_e1b_against_measured_improvement": {
+  "ap": {
+   "r": 0.045,
+   "p_permutation": 0.4353,
+   "blocks": 306
+  },
+  "auroc": {
+   "r": 0.001,
+   "p_permutation": 0.9817,
+   "blocks": 306
+  }
+ },
+ "gain_of_e1_over_b0_against_residual_with_constant": {
+  "ap": {
+   "r": -0.091,
+   "p_permutation": 0.115,
+   "blocks": 306
+  },
+  "auroc": {
+   "r": -0.1,
+   "p_permutation": 0.085,
+   "blocks": 306
+  }
+ },
+ "gain_of_e1b_over_b0_against_residual_with_plane": {
+  "ap": {
+   "r": -0.014,
+   "p_permutation": 0.8228,
+   "blocks": 306
+  },
+  "auroc": {
+   "r": -0.028,
+   "p_permutation": 0.6239,
+   "blocks": 306
+  }
+ },
+ "placebo_seed_pairs_against_correction_size": {
+  "b1 - b0": {
+   "ap": {
+    "r": 0.029,
+    "p_permutation": 0.5726,
+    "blocks": 388
+   },
+   "auroc": {
+    "r": 0.041,
+    "p_permutation": 0.4206,
+    "blocks": 388
+   }
+  },
+  "b2 - b0": {
+   "ap": {
+    "r": -0.051,
+    "p_permutation": 0.3283,
+    "blocks": 388
+   },
+   "auroc": {
+    "r": -0.079,
+    "p_permutation": 0.1212,
+    "blocks": 388
+   }
+  },
+  "b2 - b1": {
+   "ap": {
+    "r": -0.006,
+    "p_permutation": 0.9085,
+    "blocks": 388
+   },
+   "auroc": {
+    "r": -0.149,
+    "p_permutation": 0.0031,
+    "blocks": 388
+   }
+  }
+ },
+ "block_change_summary": {
+  "e1b - e1": {
+   "ap_mean": -0.0059,
+   "ap_sd": 0.0889
+  },
+  "e1 - b0": {
+   "ap_mean": -0.0116,
+   "ap_sd": 0.1194
+  },
+  "e1b - b0": {
+   "ap_mean": -0.0175,
+   "ap_sd": 0.1259
+  },
+  "b1 - b0": {
+   "ap_mean": -0.01,
+   "ap_sd": 0.1041
+  },
+  "b2 - b0": {
+   "ap_mean": -0.0057,
+   "ap_sd": 0.0903
+  },
+  "b2 - b1": {
+   "ap_mean": 0.0043,
+   "ap_sd": 0.109
+  }
+ },
+ "correction_m": {
+  "median": 1.348,
+  "p90": 2.962,
+  "max": 4.752
+ },
+ "residual_m_on_measured_blocks": {
+  "with_constant_median": 1.687,
+  "with_plane_median": 1.016,
+  "blocks": 306
+ }
+}

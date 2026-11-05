@@ -1,0 +1,94 @@
+{
+ "reference_area": "centre_sq8km",
+ "blocks_resampled": 81,
+ "resamples": 2000,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "folds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": {
+  "ugi_r1_none": {
+   "arm": "ugi_r1_none",
+   "seeds": 3,
+   "ap_coarse_offset": 0.00168,
+   "ap_vegetated_coarse_offset": 0.00145,
+   "ap_nocirc_coarse_offset": 0.00168,
+   "ap": 0.6508868,
+   "ap_sd_over_seeds": 0.0262301,
+   "ap_ci95_block": [
+    0.5974772,
+    0.7124038
+   ],
+   "ap_vegetated": 0.7049647,
+   "ap_vegetated_sd_over_seeds": 0.0270088,
+   "ap_vegetated_ci95_block": [
+    0.6519388,
+    0.7646912
+   ],
+   "iou": 0.3916371,
+   "iou_sd_over_seeds": 0.0097226,
+   "iou_ci95_block": [
+    0.3196306,
+    0.4776572
+   ],
+   "object_recall_strict": 0.4104075,
+   "object_recall_strict_sd_over_seeds": 0.0171962,
+   "object_recall_strict_ci95_block": [
+    0.351517,
+    0.4695627
+   ],
+   "object_recall_tolerant": 0.4393716,
+   "object_recall_tolerant_sd_over_seeds": 0.0201037,
+   "object_recall_tolerant_ci95_block": [
+    0.3780514,
+    0.4997868
+   ],
+   "ap_nocirc": 0.6508868,
+   "ap_nocirc_sd_over_seeds": 0.0262301,
+   "ap_nocirc_ci95_block": [
+    0.5974772,
+    0.7124038
+   ],
+   "recall_under_6m_strict": 0.0677966,
+   "recall_under_6m_strict_sd_over_seeds": 0.0169492,
+   "recall_under_6m_strict_ci95_block": [
+    0.018018,
+    0.1428571
+   ],
+   "recall_under_6m_tolerant": 0.079096,
+   "recall_under_6m_tolerant_sd_over_seeds": 0.0195712,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.0225989,
+    0.1597415
+   ],
+   "iou_nocirc": 0.3916371,
+   "iou_nocirc_sd_over_seeds": 0.0097226,
+   "iou_nocirc_ci95_block": [
+    0.3196306,
+    0.4776572
+   ],
+   "object_recall_strict_nocirc": 0.4104075,
+   "object_recall_strict_nocirc_sd_over_seeds": 0.0171962,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.351517,
+    0.4695627
+   ],
+   "object_recall_tolerant_nocirc": 0.4393716,
+   "object_recall_tolerant_nocirc_sd_over_seeds": 0.0201037,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.3780514,
+    0.4997868
+   ],
+   "auroc": 0.9164167,
+   "auroc_sd_over_seeds": 0.0203044
+  }
+ },
+ "paired_differences": {}
+}

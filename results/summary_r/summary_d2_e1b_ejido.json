@@ -1,0 +1,223 @@
+{
+ "reference_area": "ejido",
+ "blocks_resampled": 625,
+ "resamples": 2000,
+ "seeds": [
+  0
+ ],
+ "folds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": {
+  "ugi_e1b_ps_plane": {
+   "arm": "ugi_e1b_ps_plane",
+   "seeds": 1,
+   "ap_coarse_offset": 0.00136,
+   "ap_vegetated_coarse_offset": 0.00137,
+   "ap_nocirc_coarse_offset": 0.00133,
+   "ap": 0.6006851,
+   "ap_ci95_block": [
+    0.5592344,
+    0.6421706
+   ],
+   "ap_vegetated": 0.51239,
+   "ap_vegetated_ci95_block": [
+    0.4744317,
+    0.5494575
+   ],
+   "iou": 0.4190498,
+   "iou_ci95_block": [
+    0.3864645,
+    0.451819
+   ],
+   "object_recall_strict": 0.4480581,
+   "object_recall_strict_ci95_block": [
+    0.4124839,
+    0.4835682
+   ],
+   "object_recall_tolerant": 0.4799495,
+   "object_recall_tolerant_ci95_block": [
+    0.4426385,
+    0.5158121
+   ],
+   "ap_nocirc": 0.4374281,
+   "ap_nocirc_ci95_block": [
+    0.4008787,
+    0.4744341
+   ],
+   "recall_under_6m_strict": 0.0653409,
+   "recall_under_6m_strict_ci95_block": [
+    0.0291538,
+    0.1080314
+   ],
+   "recall_under_6m_tolerant": 0.0795455,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.043333,
+    0.1229841
+   ],
+   "iou_nocirc": 0.3157273,
+   "iou_nocirc_ci95_block": [
+    0.2913621,
+    0.3417991
+   ],
+   "object_recall_strict_nocirc": 0.4415335,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.4058291,
+    0.4772732
+   ],
+   "object_recall_tolerant_nocirc": 0.4738019,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.4367207,
+    0.5101193
+   ],
+   "auroc": 0.8985807
+  },
+  "diag_d2_e1b_blank": {
+   "arm": "diag_d2_e1b_blank",
+   "seeds": 1,
+   "ap_coarse_offset": 0.00218,
+   "ap_vegetated_coarse_offset": 0.00174,
+   "ap_nocirc_coarse_offset": 0.00186,
+   "ap": 0.4495613,
+   "ap_ci95_block": [
+    0.4045206,
+    0.4954869
+   ],
+   "ap_vegetated": 0.3499462,
+   "ap_vegetated_ci95_block": [
+    0.3095319,
+    0.3908145
+   ],
+   "iou": 0.2259135,
+   "iou_ci95_block": [
+    0.1955113,
+    0.2608568
+   ],
+   "object_recall_strict": 0.1919798,
+   "object_recall_strict_ci95_block": [
+    0.1688054,
+    0.215612
+   ],
+   "object_recall_tolerant": 0.2188191,
+   "object_recall_tolerant_ci95_block": [
+    0.1947264,
+    0.2443904
+   ],
+   "ap_nocirc": 0.314398,
+   "ap_nocirc_ci95_block": [
+    0.2787153,
+    0.3507108
+   ],
+   "recall_under_6m_strict": 0.0056818,
+   "recall_under_6m_strict_ci95_block": [
+    0.0,
+    0.0149717
+   ],
+   "recall_under_6m_tolerant": 0.0056818,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.0,
+    0.0149717
+   ],
+   "iou_nocirc": 0.1511803,
+   "iou_nocirc_ci95_block": [
+    0.1286751,
+    0.1761448
+   ],
+   "object_recall_strict_nocirc": 0.1872204,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.1644813,
+    0.2103952
+   ],
+   "object_recall_tolerant_nocirc": 0.2140575,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.1895356,
+    0.2397244
+   ],
+   "auroc": 0.8558067
+  }
+ },
+ "paired_differences": {
+  "diag_d2_e1b_blank - ugi_e1b_ps_plane": {
+   "ap": {
+    "point": -0.1511238,
+    "ci95_block": [
+     -0.1794266,
+     -0.1229902
+    ]
+   },
+   "ap_vegetated": {
+    "point": -0.1624438,
+    "ci95_block": [
+     -0.1863416,
+     -0.138861
+    ]
+   },
+   "iou": {
+    "point": -0.1931363,
+    "ci95_block": [
+     -0.2181454,
+     -0.1679553
+    ]
+   },
+   "object_recall_strict": {
+    "point": -0.2560783,
+    "ci95_block": [
+     -0.285049,
+     -0.2273436
+    ]
+   },
+   "object_recall_tolerant": {
+    "point": -0.2611304,
+    "ci95_block": [
+     -0.2901145,
+     -0.2318121
+    ]
+   },
+   "ap_nocirc": {
+    "point": -0.1230301,
+    "ci95_block": [
+     -0.1460833,
+     -0.1005644
+    ]
+   },
+   "recall_under_6m_strict": {
+    "point": -0.0596591,
+    "ci95_block": [
+     -0.0997506,
+     -0.0263818
+    ]
+   },
+   "recall_under_6m_tolerant": {
+    "point": -0.0738637,
+    "ci95_block": [
+     -0.1151515,
+     -0.0405768
+    ]
+   },
+   "iou_nocirc": {
+    "point": -0.164547,
+    "ci95_block": [
+     -0.1856939,
+     -0.1438704
+    ]
+   },
+   "object_recall_strict_nocirc": {
+    "point": -0.2543131,
+    "ci95_block": [
+     -0.2832476,
+     -0.2254195
+    ]
+   },
+   "object_recall_tolerant_nocirc": {
+    "point": -0.2597444,
+    "ci95_block": [
+     -0.2887429,
+     -0.2305051
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "reference_area": "centre_sq5km",
+ "blocks_resampled": 36,
+ "resamples": 2000,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "folds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": {
+  "ugi_r1_none": {
+   "arm": "ugi_r1_none",
+   "seeds": 3,
+   "ap_coarse_offset": 0.00148,
+   "ap_vegetated_coarse_offset": 0.00124,
+   "ap_nocirc_coarse_offset": 0.00148,
+   "ap": 0.6447059,
+   "ap_sd_over_seeds": 0.0253233,
+   "ap_ci95_block": [
+    0.5330422,
+    0.7385695
+   ],
+   "ap_vegetated": 0.7145039,
+   "ap_vegetated_sd_over_seeds": 0.012232,
+   "ap_vegetated_ci95_block": [
+    0.5945086,
+    0.8089924
+   ],
+   "iou": 0.4375846,
+   "iou_sd_over_seeds": 0.0227891,
+   "iou_ci95_block": [
+    0.3442913,
+    0.5193029
+   ],
+   "object_recall_strict": 0.3259912,
+   "object_recall_strict_sd_over_seeds": 0.0344064,
+   "object_recall_strict_ci95_block": [
+    0.238443,
+    0.4200963
+   ],
+   "object_recall_tolerant": 0.3597651,
+   "object_recall_tolerant_sd_over_seeds": 0.0312537,
+   "object_recall_tolerant_ci95_block": [
+    0.2699123,
+    0.4547418
+   ],
+   "ap_nocirc": 0.6447059,
+   "ap_nocirc_sd_over_seeds": 0.0253233,
+   "ap_nocirc_ci95_block": [
+    0.5330422,
+    0.7385695
+   ],
+   "recall_under_6m_strict": 0.0793651,
+   "recall_under_6m_strict_sd_over_seeds": 0.0274929,
+   "recall_under_6m_strict_ci95_block": [
+    0.0,
+    0.2000725
+   ],
+   "recall_under_6m_tolerant": 0.0793651,
+   "recall_under_6m_tolerant_sd_over_seeds": 0.0274929,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.0,
+    0.2000725
+   ],
+   "iou_nocirc": 0.4375846,
+   "iou_nocirc_sd_over_seeds": 0.0227891,
+   "iou_nocirc_ci95_block": [
+    0.3442913,
+    0.5193029
+   ],
+   "object_recall_strict_nocirc": 0.3259912,
+   "object_recall_strict_nocirc_sd_over_seeds": 0.0344064,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.238443,
+    0.4200963
+   ],
+   "object_recall_tolerant_nocirc": 0.3597651,
+   "object_recall_tolerant_nocirc_sd_over_seeds": 0.0312537,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.2699123,
+    0.4547418
+   ],
+   "auroc": 0.9360802,
+   "auroc_sd_over_seeds": 0.0141016
+  }
+ },
+ "paired_differences": {}
+}

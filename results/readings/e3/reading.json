@@ -1,0 +1,55 @@
+{
+ "rule": "13.8",
+ "arm": "ugi_e3_s2",
+ "tag": "e3",
+ "secondary": {
+  "status": "no gain",
+  "gain": -0.0215654,
+  "ci95_block": [
+   -0.0420803,
+   -0.0007158
+  ],
+  "threshold": 0.0372,
+  "folds_positive": 2,
+  "per_fold_difference": {
+   "1": 0.001738706793561362,
+   "2": -0.05137104763228029,
+   "3": -0.06416879668377146,
+   "4": 0.05526803644844447
+  },
+  "mean_per_fold_difference": -0.014633275268511478,
+  "sign_disagreement": false,
+  "tests": {
+   "gain_at_least_0.0372": false,
+   "interval_above_zero": false,
+   "positive_in_at_least_3_of_4_folds": false
+  },
+  "region": "ejido",
+  "sd": 0.0124
+ },
+ "secondary_verdict": "no gain",
+ "primary": {
+  "status": "no gain",
+  "gain": 0.0020307,
+  "ci95_block": [
+   -0.0359647,
+   0.0339309
+  ],
+  "threshold": 0.054,
+  "folds_positive": 2,
+  "per_fold_difference": {
+   "1": 0.011336245336573736,
+   "2": 0.030760742061932134,
+   "3": -0.032534337580145345,
+   "4": -0.013526485065602945
+  },
+  "mean_per_fold_difference": -0.000990958811810605,
+  "sign_disagreement": true,
+  "tests": {
+   "gain_at_least_0.0540": false,
+   "positive_in_at_least_3_of_4_folds": false
+  },
+  "region": "centre_sq8km",
+  "sd": 0.018
+ }
+}

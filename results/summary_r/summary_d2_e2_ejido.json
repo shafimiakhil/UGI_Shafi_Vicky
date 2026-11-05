@@ -1,0 +1,223 @@
+{
+ "reference_area": "ejido",
+ "blocks_resampled": 625,
+ "resamples": 2000,
+ "seeds": [
+  0
+ ],
+ "folds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": {
+  "ugi_e2_tex": {
+   "arm": "ugi_e2_tex",
+   "seeds": 1,
+   "ap_coarse_offset": 0.00134,
+   "ap_vegetated_coarse_offset": 0.0014,
+   "ap_nocirc_coarse_offset": 0.00133,
+   "ap": 0.605616,
+   "ap_ci95_block": [
+    0.5624848,
+    0.6505212
+   ],
+   "ap_vegetated": 0.5260922,
+   "ap_vegetated_ci95_block": [
+    0.4878476,
+    0.5639373
+   ],
+   "iou": 0.4136685,
+   "iou_ci95_block": [
+    0.3793419,
+    0.4491208
+   ],
+   "object_recall_strict": 0.4452163,
+   "object_recall_strict_ci95_block": [
+    0.410201,
+    0.4796419
+   ],
+   "object_recall_tolerant": 0.4868961,
+   "object_recall_tolerant_ci95_block": [
+    0.4504186,
+    0.5222786
+   ],
+   "ap_nocirc": 0.444027,
+   "ap_nocirc_ci95_block": [
+    0.407699,
+    0.4847393
+   ],
+   "recall_under_6m_strict": 0.0909091,
+   "recall_under_6m_strict_ci95_block": [
+    0.0461095,
+    0.1446207
+   ],
+   "recall_under_6m_tolerant": 0.1278409,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.0767355,
+    0.1829521
+   ],
+   "iou_nocirc": 0.3048196,
+   "iou_nocirc_ci95_block": [
+    0.2778712,
+    0.3328193
+   ],
+   "object_recall_strict_nocirc": 0.4386581,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.4036746,
+    0.4723998
+   ],
+   "object_recall_tolerant_nocirc": 0.4808307,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.4438435,
+    0.5164157
+   ],
+   "auroc": 0.9076732
+  },
+  "diag_d2_e2_blank": {
+   "arm": "diag_d2_e2_blank",
+   "seeds": 1,
+   "ap_coarse_offset": 0.00095,
+   "ap_vegetated_coarse_offset": 0.00087,
+   "ap_nocirc_coarse_offset": 0.00077,
+   "ap": 0.4444835,
+   "ap_ci95_block": [
+    0.3978279,
+    0.4895538
+   ],
+   "ap_vegetated": 0.3409364,
+   "ap_vegetated_ci95_block": [
+    0.3015525,
+    0.3826194
+   ],
+   "iou": 0.2200273,
+   "iou_ci95_block": [
+    0.1961055,
+    0.2446764
+   ],
+   "object_recall_strict": 0.6406694,
+   "object_recall_strict_ci95_block": [
+    0.6025662,
+    0.6749014
+   ],
+   "object_recall_tolerant": 0.668456,
+   "object_recall_tolerant_ci95_block": [
+    0.631173,
+    0.7024328
+   ],
+   "ap_nocirc": 0.2916867,
+   "ap_nocirc_ci95_block": [
+    0.2575795,
+    0.3253479
+   ],
+   "recall_under_6m_strict": 0.2357955,
+   "recall_under_6m_strict_ci95_block": [
+    0.1618588,
+    0.3076982
+   ],
+   "recall_under_6m_tolerant": 0.2698864,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.1953265,
+    0.3436431
+   ],
+   "iou_nocirc": 0.1628659,
+   "iou_nocirc_ci95_block": [
+    0.1435779,
+    0.1824137
+   ],
+   "object_recall_strict_nocirc": 0.6367412,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.5984425,
+    0.6711498
+   ],
+   "object_recall_tolerant_nocirc": 0.6648562,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.627014,
+    0.699389
+   ],
+   "auroc": 0.8642563
+  }
+ },
+ "paired_differences": {
+  "diag_d2_e2_blank - ugi_e2_tex": {
+   "ap": {
+    "point": -0.1611325,
+    "ci95_block": [
+     -0.1921839,
+     -0.1321818
+    ]
+   },
+   "ap_vegetated": {
+    "point": -0.1851558,
+    "ci95_block": [
+     -0.2170201,
+     -0.1556536
+    ]
+   },
+   "iou": {
+    "point": -0.1936412,
+    "ci95_block": [
+     -0.2291583,
+     -0.1584571
+    ]
+   },
+   "object_recall_strict": {
+    "point": 0.1954531,
+    "ci95_block": [
+     0.1740821,
+     0.2165021
+    ]
+   },
+   "object_recall_tolerant": {
+    "point": 0.1815599,
+    "ci95_block": [
+     0.1606241,
+     0.2027743
+    ]
+   },
+   "ap_nocirc": {
+    "point": -0.1523403,
+    "ci95_block": [
+     -0.1845415,
+     -0.1233675
+    ]
+   },
+   "recall_under_6m_strict": {
+    "point": 0.1448864,
+    "ci95_block": [
+     0.0878858,
+     0.2023487
+    ]
+   },
+   "recall_under_6m_tolerant": {
+    "point": 0.1420455,
+    "ci95_block": [
+     0.0827243,
+     0.2
+    ]
+   },
+   "iou_nocirc": {
+    "point": -0.1419537,
+    "ci95_block": [
+     -0.1728349,
+     -0.1106406
+    ]
+   },
+   "object_recall_strict_nocirc": {
+    "point": 0.1980831,
+    "ci95_block": [
+     0.1765283,
+     0.219331
+    ]
+   },
+   "object_recall_tolerant_nocirc": {
+    "point": 0.1840255,
+    "ci95_block": [
+     0.163025,
+     0.2055465
+    ]
+   }
+  }
+ }
+}

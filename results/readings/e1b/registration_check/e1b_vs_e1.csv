@@ -1,0 +1,13 @@
+region,pair,ap_difference,ci95_low,ci95_high,excludes_zero,blocks
+sq8km,e1b - e1,-0.0048,-0.03,0.0194,False,81
+sq8km,e1 - b0,-0.0036,-0.0322,0.0195,False,81
+sq8km,e1b - b0,-0.0084,-0.0403,0.0256,False,81
+sq8km,b1 - b0,0.023,-0.0149,0.0506,False,81
+sq8km,b2 - b0,-0.0293,-0.0515,-0.0068,True,81
+sq8km,b2 - b1,-0.0523,-0.084,-0.0096,True,81
+ejido,e1b - e1,-0.0284,-0.0408,-0.016,True,625
+ejido,e1 - b0,0.0164,-0.0015,0.0346,False,625
+ejido,e1b - b0,-0.012,-0.0307,0.007,False,625
+ejido,b1 - b0,0.005,-0.01,0.0213,False,625
+ejido,b2 - b0,-0.0006,-0.0117,0.0118,False,625
+ejido,b2 - b1,-0.0056,-0.0228,0.0112,False,625

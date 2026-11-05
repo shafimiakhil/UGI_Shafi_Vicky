@@ -1,0 +1,94 @@
+{
+ "reference_area": "full grid",
+ "blocks_resampled": 625,
+ "resamples": 2000,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "folds": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": {
+  "ugi_r1_none": {
+   "arm": "ugi_r1_none",
+   "seeds": 3,
+   "ap_coarse_offset": 0.00142,
+   "ap_vegetated_coarse_offset": 0.0014,
+   "ap_nocirc_coarse_offset": 0.0014,
+   "ap": 0.6112213,
+   "ap_sd_over_seeds": 0.0002078,
+   "ap_ci95_block": [
+    0.5706842,
+    0.6515068
+   ],
+   "ap_vegetated": 0.5171468,
+   "ap_vegetated_sd_over_seeds": 0.0030994,
+   "ap_vegetated_ci95_block": [
+    0.4810321,
+    0.5516443
+   ],
+   "iou": 0.4231921,
+   "iou_sd_over_seeds": 0.0040527,
+   "iou_ci95_block": [
+    0.3912147,
+    0.4560711
+   ],
+   "object_recall_strict": 0.444269,
+   "object_recall_strict_sd_over_seeds": 0.0165795,
+   "object_recall_strict_ci95_block": [
+    0.4115988,
+    0.4765147
+   ],
+   "object_recall_tolerant": 0.4762657,
+   "object_recall_tolerant_sd_over_seeds": 0.0172147,
+   "object_recall_tolerant_ci95_block": [
+    0.442604,
+    0.5077376
+   ],
+   "ap_nocirc": 0.4453065,
+   "ap_nocirc_sd_over_seeds": 0.0031004,
+   "ap_nocirc_ci95_block": [
+    0.4111672,
+    0.4825613
+   ],
+   "recall_under_6m_strict": 0.0643939,
+   "recall_under_6m_strict_sd_over_seeds": 0.0290181,
+   "recall_under_6m_strict_ci95_block": [
+    0.0385737,
+    0.0940496
+   ],
+   "recall_under_6m_tolerant": 0.0814394,
+   "recall_under_6m_tolerant_sd_over_seeds": 0.0336541,
+   "recall_under_6m_tolerant_ci95_block": [
+    0.0517037,
+    0.1166702
+   ],
+   "iou_nocirc": 0.3162151,
+   "iou_nocirc_sd_over_seeds": 0.0019793,
+   "iou_nocirc_ci95_block": [
+    0.2924448,
+    0.3419194
+   ],
+   "object_recall_strict_nocirc": 0.4376997,
+   "object_recall_strict_nocirc_sd_over_seeds": 0.0167754,
+   "object_recall_strict_nocirc_ci95_block": [
+    0.4051904,
+    0.4694232
+   ],
+   "object_recall_tolerant_nocirc": 0.4700745,
+   "object_recall_tolerant_nocirc_sd_over_seeds": 0.0174182,
+   "object_recall_tolerant_nocirc_ci95_block": [
+    0.4361524,
+    0.5016959
+   ],
+   "auroc": 0.9097077,
+   "auroc_sd_over_seeds": 0.0060213
+  }
+ },
+ "paired_differences": {}
+}
