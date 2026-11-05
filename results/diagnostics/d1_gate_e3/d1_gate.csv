@@ -1,0 +1,5 @@
+arm,fold,seed,best_epoch,gate_weight_norm,gate_bias_norm,tiles,stage_rms_median,added_rms_median,input_dependent_rms_median,ratio_added,ratio_input_dependent
+ugi_e3_s2,1,0,46,0.99188,0.29137,32,0.30141,0.10138,0.16804,0.33645,0.58169
+ugi_e3_s2,2,0,55,1.01987,0.34407,32,0.36021,0.11001,0.13608,0.31915,0.35529
+ugi_e3_s2,3,0,44,0.94121,0.3507,32,0.40509,0.11677,0.09284,0.29003,0.23629
+ugi_e3_s2,4,0,50,1.12726,0.31908,32,0.36911,0.11752,0.13488,0.33197,0.38033

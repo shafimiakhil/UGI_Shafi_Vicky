@@ -1,0 +1,28 @@
+{
+ "rule": "the PlanetScope screen reaches 0.60 when the highest auc_mean among the five ps_ndvi_* features inside the ejido is at least 0.60 (written before the first run, scripts/diag_d3.py)",
+ "ps_best_feature": "ps_ndvi_20220424",
+ "ps_best_auc_mean": 0.6091,
+ "ps_best_auc_min": 0.5677,
+ "ps_reaches_0_60": true,
+ "s2_best_feature": "s2_ndmi_q2",
+ "s2_best_auc_mean": 0.6395,
+ "s2_best_auc_min": 0.5805,
+ "floor_ejido": {
+  "ndvi_auc_mean": 0.5092,
+  "chm_auc_mean": 0.5633
+ },
+ "samples": {
+  "all": 160000,
+  "ejido": 158794,
+  "sq8km": 11412,
+  "sq8km_positives": 8583,
+  "sq8km_tiles": 32
+ },
+ "cache_check": {
+  "tiles_sampled": 232,
+  "tiles_cached": 232,
+  "checked": 12
+ },
+ "seconds": 131.8,
+ "finished": "2026-11-04T21:22:23"
+}

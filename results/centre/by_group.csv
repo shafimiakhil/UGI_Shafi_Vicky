@@ -1,0 +1,25 @@
+candidate,group,polygons,km2_inside
+ring,Road greens,551,1.427
+ring,Squares,762,2.547
+ring,Parks and green areas,277,3.551
+ring,Water corridors,38,2.632
+ring,Rail verges,73,0.897
+ring,NO DEFINIDO,61,0.161
+sq3km,Road greens,12,0.006
+sq3km,Squares,27,0.107
+sq3km,Parks and green areas,5,0.084
+sq3km,Water corridors,3,0.202
+sq3km,Rail verges,15,0.147
+sq3km,NO DEFINIDO,0,0.0
+sq5km,Road greens,67,0.108
+sq5km,Squares,95,0.3
+sq5km,Parks and green areas,22,0.113
+sq5km,Water corridors,8,0.506
+sq5km,Rail verges,31,0.267
+sq5km,NO DEFINIDO,4,0.002
+sq8km,Road greens,218,1.167
+sq8km,Squares,285,0.944
+sq8km,Parks and green areas,85,1.286
+sq8km,Water corridors,20,1.33
+sq8km,Rail verges,46,0.482
+sq8km,NO DEFINIDO,25,0.114
